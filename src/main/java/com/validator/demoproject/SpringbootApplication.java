@@ -9,11 +9,11 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestOperations;
 import org.springframework.web.client.RestTemplate;
 @SpringBootApplication
-public class MethodEnhanceApplication {
+public class SpringbootApplication {
 
     public static void main(String[] args) {
         System.setProperty(DebuggingClassWriter.DEBUG_LOCATION_PROPERTY, "E:\\proxyClass");
-        SpringApplication.run(MethodEnhanceApplication.class, args);
+        SpringApplication.run(SpringbootApplication.class, args);
     }
 
 
